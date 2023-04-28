@@ -36,28 +36,17 @@ var xy = colorsxy[(Math.floor(Math.random() * (colorsxy.length)))]
 
 var y2="+";
 
-
-
-
- ////以下是起点于尾巴随机
-
- 
  
 var colorsaabb = ['aa','bb'];
-
-
 
 
 var xaabb = colorsaabb[(Math.floor(Math.random() * (colorsaabb.length)))]
 
 //后区
 
-
-
  var $p2= Math.floor(Math.random()*12+0);
 
-var $z2= Math.floor(Math.random()*12+0);
-
+ var $z2= Math.floor(Math.random()*12+0);
 
 
  
@@ -74,9 +63,7 @@ else
 $("#"+xaabb).after(Math.floor(Math.random()*12+1)+y2);
 
 
-
   }
-
 
 
 $("#aa").attr('id','bb');
@@ -99,8 +86,6 @@ $("#bb").attr('id','aa');
 <script type="text/javascript">
 
 
-
-
 $(document).ready(function(){
   $("#button1").click(function(){
     
@@ -109,15 +94,10 @@ $(document).ready(function(){
 var colors = ['a','b','c','d','e','f','g'];
 
 
-
-
 var x = colors[(Math.floor(Math.random() * (colors.length)))]
 
 
-
-
 var colorsxy = [,'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9'];
-
 
 
 var xy = colorsxy[(Math.floor(Math.random() * (colorsxy.length)))]
@@ -127,10 +107,9 @@ var y2="+";
 //$("#to").attr('id','xx');//之后变成xx
  
  
- 
  var $p= Math.floor(Math.random()*35+0);
 
-var $z= Math.floor(Math.random()*35+0);
+ var $z= Math.floor(Math.random()*35+0);
 
 
 if ($p<$z)
@@ -150,12 +129,7 @@ $("#"+x).after(Math.floor(Math.random()*35+1)+y2);
   }
 
 
- 
- 
-
  //前区
-
-
 
 
 $("#a").attr('id','g');
@@ -175,7 +149,6 @@ $("#f").attr('id','b');
 
 
 $("#g").attr('id','a');
-
 
 
   });
