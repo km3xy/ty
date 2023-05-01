@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="jquery-1.10.2/jquery.min.js">
+</script>
+<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="angular-1.5.8/angular.min.js"></script>
+
+<script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script> 
+
+
+<body>
+
 //代码片段
 
 <p><h3>尝试修改以下表单。</p>
