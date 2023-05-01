@@ -103,6 +103,21 @@ $("#g").attr('id','a');
 
 
 
+ 
+ <h1>
+ 
+ 
+ <br>
+ 
+
+ 
+<button  style="font-size:60px;color:#FF0000" onclick="function()" id='button3'>前区替换还原</button>  
+
+
+  
+ <h1>
+  
+
 
 
 
