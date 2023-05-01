@@ -46,6 +46,67 @@ input后区位数值: {{+firstName}}
 
 
 
+$arr4=$_POST['c'];  
+
+//可以手工输入位数位数，必须把位数数组转换成字符串
+
+$x=$_POST['b_ng'];  
+$x2=join($x);   
+
+//可以手工输入位数，把位数数组转换成字符串数字
+//
+//把c数组赋值给arr4
+
+
+//$x=mt_rand(5,5);  //取随机数
+
+
+
+$y=count($arr4);//获取C数组长度
+
+
+$xy=$x2-$y;  //减法计算
+
+
+
+
+$b5=mt_rand($xy,$xy); //设定位数值
+
+
+
+
+ $arr5=array_rand($result2,$b5);  
+
+ //在勾选号码中随机
+
+
+
+
+$arr4=$_POST['c'];  
+
+
+// 把c数组赋值给arr4
+
+
+
+$he= array_merge($arr5,$arr4); 
+
+//合并arr5和arr4数组
+
+
+sort($he);      //按照顺序排列数组
+
+$hejoin=join("+", $he);   
+
+
+ //把数组转换成字符串
+ 
+echo  $hejoin;
+
+
+
+
+
 
 
 
