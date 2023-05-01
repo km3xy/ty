@@ -1,3 +1,8 @@
+
+//代码片段
+
+
+
 <p><h3>尝试修改以下表单。</p>
 ​
 <div ng-app="myApp" ng-controller="myCtrl">
@@ -116,7 +121,7 @@ js获取  input   value
 
 
 
-
+var a=document.getElementById("a1").value;
 
 
 
@@ -131,12 +136,6 @@ app.controller('myCtrl', function($scope) {
 
 
 
-
-
-
-
-
-
 function myFunction2()
 {
 
@@ -148,23 +147,13 @@ var colors = ['aa','bb','cc','dd','ee','ff','gg','hh','ii','jj','kk','ll'];
 var xx = colors[(Math.floor(Math.random() * (colors.length)))]
 
 
-
-
-
 var colors2 = ['a','b','c','d','e','f','g','h','i','j','k','l'];
-
-
-
 
 
 var xy = colors2[(Math.floor(Math.random() * (colors2.length)))]
 
 
-
-
 var  y=Math.floor(Math.random()*12+0); 
-
-
 
 /*
 
@@ -219,9 +208,6 @@ else{
 
 
 }
-
-
-
 
 
 
