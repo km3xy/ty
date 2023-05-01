@@ -105,10 +105,127 @@ echo  $hejoin;
 
 
 
+php获取  input  value
+
+
+
+$x=$_POST['b_ng'];
+
+
+js获取  input   value
 
 
 
 
+
+
+
+<script>
+
+
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.firstName= Math.floor(Math.random()*0+0);
+    $scope.lastName=Math.floor(Math.random()*0+0);
+});
+
+
+
+
+
+
+
+
+
+function myFunction2()
+{
+
+
+
+var colors = ['aa','bb','cc','dd','ee','ff','gg','hh','ii','jj','kk','ll'];
+
+
+var xx = colors[(Math.floor(Math.random() * (colors.length)))]
+
+
+
+
+
+var colors2 = ['a','b','c','d','e','f','g','h','i','j','k','l'];
+
+
+
+
+
+var xy = colors2[(Math.floor(Math.random() * (colors2.length)))]
+
+
+
+
+var  y=Math.floor(Math.random()*12+0); 
+
+
+
+/*
+
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.firstName= Math.floor(Math.random()*35+1);
+    $scope.lastName=Math.floor(Math.random()*35+1);
+});
+
+
+var  y=Math.floor(Math.random()*35+0); 
+
+//注35+0是取0到35之间随机数
+
+
+
+*/
+
+//后区4s5r
+
+
+var  y3="+"; 
+
+
+var a=document.getElementById("a1").value;
+
+
+
+var y6=Math.random();
+
+var y7=Math.floor(Math.random()*0+0); 
+
+var r=Math.random();
+
+
+if (r>y6){
+
+    document.getElementById(xx).innerHTML=a+y3+y6; 
+
+
+
+
+}
+
+else{
+
+    document.getElementById(xx).innerHTML=a+y3+y7; 
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+</script>
 
 
 
