@@ -6,6 +6,9 @@ $str = "www.runoob.com";
 
 $a=explode(".",$str);
 
+//去掉"."会报错
+
+
 print_r ($a);
 
 echo  "<br>";
