@@ -12,7 +12,7 @@ echo  "<br>";
 
 print_r (explode(".",$str));
 
-//去掉.号"."
+//去掉.号"."不行，必须加"·"不加报错
 
 
 $str2 = "www+runoob+com";
@@ -25,7 +25,8 @@ print_r ($a2);
 
 echo  "<br>";
 
-//去掉+号"+"
+//去掉+号"+"   
+
 
 print_r (explode("+",$str2));
 
@@ -35,17 +36,25 @@ echo  "<br>";
 
 $str3 = "www";
 
-$a3=explode("",$str3);
+$a3=explode(".",$str3));
+
+//去掉"."不行 必须加"·" 不加报错
 
 print_r ($a3);
 
 echo  "<br>";
 
-print_r (explode("",$str3));
+print_r (explode(".",$str3));
 
+//必须加"."不加报错
 
 
 ?>
+
+
+
+
+
 
 
 
