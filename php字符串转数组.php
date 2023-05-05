@@ -25,8 +25,6 @@ print_r ($a2);
 
 echo  "<br>";
 
-
-
 //去掉+号"+"
 
 print_r (explode("+",$str2));
@@ -35,15 +33,15 @@ print_r (explode("+",$str2));
 echo  "<br>";
 
 
-$str3 = "www+";
+$str3 = "www";
 
-$a3=explode("+",$str3);
+$a3=explode("",$str3);
 
 print_r ($a3);
 
 echo  "<br>";
 
-print_r (explode("+",$str3));
+print_r (explode("",$str3));
 
 
 
