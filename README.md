@@ -1,4 +1,4 @@
-#ty
+# ty  核心
 
 新增，多维复选
 
@@ -32,6 +32,8 @@ https://f-droid.org/
 
 
 https://f-droid.org/zh_Hans/packages/exa.lnx.a/
+
+
 
 
 
