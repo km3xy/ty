@@ -1,3 +1,9 @@
+新增方法
+
+
+input免输入版ms5新增，请选择上期码，
+
+
 
 <a  style="font-size:55px;color:#FF0000"  style=" text-decoration: none;"     href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" id="AddMoreFileBox" class="btn btn-info">添加更多的input输入框</a></span></p>
 
